@@ -1,0 +1,17 @@
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: localhost2
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+#    serviceUrl:
+#      #zone1: http://localhost:8761/eureka/
+#      #zone2: http://localhost2:8762/eureka/
+#      defaultZone: http://localhost3:8763/eureka/
+
+spring:
+  application:
+    name: eurka-server2
